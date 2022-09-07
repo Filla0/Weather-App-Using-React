@@ -113,6 +113,14 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="footer-container">
+        <div className="footer">
+          <a href="https://github.com/Filla0" className="footer-button">
+            Build by Filimon
+          </a>
+          <img src={logo} alt="Logo" className="logo" />
+        </div>
+      </div>
     </div>
   );
 }
