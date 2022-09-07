@@ -1,19 +1,23 @@
 # Weather-App-Using-React
 
+![screen shot from the app](https://github.com/Filla0/Movie-search-app/blob/main/image/screenshotJPG.JPG)
+
+![screen shot from the app](https://github.com/Filla0/Movie-search-app/blob/main/image/screenshotJPG.JPG)
+
 ## App features
 This is a weather web app which will provide you information about the current, hourly and daily weather for any city. I will follow the [NS](https://www.ns.nl/en) website style and i will be fetching from openweathermap.org's API
 
 ### Must have:-
-- [ ] Design of the app should fits the [NS](https://www.ns.nl/en) website style.
-- [ ] The weather information at least should show:
-     - [ ] Location name
-     - [ ] Time
-     - [ ] Weather condition
-     - [ ] Sample logo of weather
-     - [ ] Changeable temperature
-- [ ] User can search about different locations.
-- [ ] User can know the weather of five days.
-- [ ] User can know the weather of 48 hours.
+- [x] Design of the app should fits the [NS](https://www.ns.nl/en) website style.
+- [x] The weather information at least should show:
+     - [x] Location name
+     - [x] Time
+     - [x] Weather condition
+     - [x] Sample logo of weather
+     - [x] Changeable temperature
+- [x] User can search about different locations.
+- [x] User can know the weather of five days.
+- [x] User can know the weather of 48 hours.
 
 
   ### nice to have features:
