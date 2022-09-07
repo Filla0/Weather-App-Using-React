@@ -9,6 +9,7 @@ import DailyWeather from "../Components/DailyWeather/DailyWeather";
 import Loader from "../Components/Loader/Loader";
 import { convertTime } from "../Utils/ConvertTime";
 import { Icon } from "@iconify/react";
+import logo from "../image/logo.png";
 import "./Weather.css";
 
 export default function Weather() {
@@ -50,6 +51,12 @@ export default function Weather() {
   }
   return (
     <>
+      <div className="header">
+        <div className="home-logo">
+          <img src={logo} alt="Logo" className="logo" />
+          <h3>React Weather</h3>
+        </div>
+      </div>
       {isError ? (
         <h2 style={{ textAlign: "center", marginTop: "2em" }}>
           There was an error. Please try again.
@@ -117,6 +124,18 @@ export default function Weather() {
       ) : (
         <Loader />
       )}
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className="footer-container">
+        <div className="footer">
+          <a href="https://github.com/Filla0" className="footer-button">
+            Build by Filimon
+          </a>
+          <img src={logo} alt="Logo" className="logo" />
+        </div>
+      </div>
     </>
   );
 }
