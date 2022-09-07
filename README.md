@@ -1,8 +1,8 @@
 # Weather-App-Using-React
 
-![screen shot from the app](https://github.com/Filla0/Movie-search-app/blob/main/image/screenshotJPG.JPG)
+![screen shot from the app](https://github.com/Filla0/Weather-App-Using-React/blob/main/src/image/demo.JPG)
 
-![screen shot from the app](https://github.com/Filla0/Movie-search-app/blob/main/image/screenshotJPG.JPG)
+![screen shot from the app](https://github.com/Filla0/Weather-App-Using-React/blob/main/src/image/demo2.JPG)
 
 ## App features
 This is a weather web app which will provide you information about the current, hourly and daily weather for any city. I will follow the [NS](https://www.ns.nl/en) website style and i will be fetching from openweathermap.org's API
