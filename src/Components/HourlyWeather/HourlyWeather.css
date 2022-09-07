@@ -1,0 +1,37 @@
+.hourly-weather-wrapper {
+  position: relative;
+}
+.hourly-weather {
+  overflow-x: scroll;
+}
+.hourly-weather::-webkit-scrollbar {
+  display: none;
+}
+.hourly-weather-content {
+  display: flex;
+}
+.hourly-weather-title {
+  position: absolute;
+  top: -45px;
+  left: -12px;
+  font-size: 18px;
+}
+.light-hourly-weather-title {
+  color: gray;
+}
+
+.dark-hourly-weather-title {
+  color: rgb(200, 200, 200);
+}
+
+.single-hour-weather {
+  text-align: center;
+  margin-right: 1.5em;
+  min-width: fit-content;
+}
+.single-hour-weather-time {
+  font-size: 13px;
+}
+.single-hour-weather-temp {
+  font-weight: bolder;
+}

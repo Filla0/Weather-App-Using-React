@@ -1,0 +1,72 @@
+.current-weather-main h1,
+p {
+  margin: 0;
+}
+
+.current-weather-main {
+  display: grid;
+  grid-gap: 0.25em;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2.5em;
+}
+.current-weather-main-desc {
+  grid-column: -1 / 1;
+  font-weight: bold;
+  font-size: 18px;
+}
+.current-weather-icon {
+  justify-self: right;
+  height: 100px;
+  width: 100px;
+}
+.current-weather-main-temp {
+  position: relative;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+.current-weather-main-temp span {
+  font-size: 30px;
+  position: absolute;
+  top: 12px;
+}
+
+.current-weather-secondary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 1.5em 0.25em;
+}
+
+.current-weather-secondary p {
+  display: flex;
+}
+.current-weather-secondary p span {
+  margin-left: 5px;
+}
+
+@media (min-width: 850px) {
+  .current-weather-main {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 1.5em;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 2.5em;
+  }
+  .current-weather-main-temp {
+    grid-row: 2/3;
+    font-size: 120px;
+  }
+  .current-weather-main-temp span {
+    top: 20px;
+  }
+  .current-weather-icon {
+    grid-row: 1/2;
+    justify-self: center;
+    height: 120px;
+    width: 120px;
+  }
+  .current-weather-secondary {
+    grid-gap: 3em 1.5em;
+  }
+}

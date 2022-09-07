@@ -1,0 +1,38 @@
+.daily-weather-wrapper {
+  position: relative;
+}
+.dark-single-day-weather {
+  border-bottom: 1px solid rgb(73, 73, 73);
+}
+.light-single-day-weather {
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+.single-day-weather {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  align-items: center;
+}
+.single-day-weather:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.single-day-weather-day {
+  font-weight: bold;
+}
+.single-day-weather-day span {
+  color: grey;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.right-align-content {
+  display: flex;
+  align-items: center;
+}
+
+.single-day-weather-temp {
+  margin: 0 1.5em;
+}
