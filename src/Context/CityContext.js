@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 const CityContext = React.createContext();
 
 const CityContextProvider = (props) => {
